@@ -10,9 +10,9 @@ public class KlantTest {
     @Before
     public void init () {
         europa = new Werelddeel("Europa");
-        europa.addLand (new Land ("Nederland", "NL"));
         europa.addLand (new Land ("België", "BE"));
         europa.addLand (new Land ("Duitsland", "DE"));
+        europa.addLand (new Land ("Frankrijk", "FR"));
     }
 
     @Test
